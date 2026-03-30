@@ -7,7 +7,6 @@ class Streifen < Formula
   license "MIT"
   head "https://github.com/sebastian-breitzke/streifen.git", branch: "main"
 
-  depends_on xcode: ["15.0", :build]
   depends_on :macos => :sonoma
 
   def install
