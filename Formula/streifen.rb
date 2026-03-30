@@ -3,7 +3,7 @@ class Streifen < Formula
   homepage "https://github.com/sebastian-breitzke/streifen"
   url "https://github.com/sebastian-breitzke/streifen.git",
       tag:      "v0.1.0",
-      revision: "0751f7a"
+      revision: "0751f7a535cd3162963e0a7e026a05b4d4b6f10c"
   license "MIT"
   head "https://github.com/sebastian-breitzke/streifen.git", branch: "main"
 
