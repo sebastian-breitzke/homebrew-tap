@@ -3,7 +3,7 @@ class Streifen < Formula
   homepage "https://github.com/sebastian-breitzke/streifen"
   url "https://github.com/sebastian-breitzke/streifen.git",
       tag:      "v0.1.0",
-      revision: "d53bb4938fe477a1ed8672261f90ee515aa9d099"
+      revision: "ce6e01b0060464b0f31d59aa61105900f6c78aab"
   license "MIT"
   head "https://github.com/sebastian-breitzke/streifen.git", branch: "main"
 
@@ -14,6 +14,9 @@ class Streifen < Formula
            "-c", "release",
            "--disable-sandbox"
     bin.install ".build/release/Streifen" => "streifen"
+    system "codesign", "--force", "--sign", "-",
+           "--identifier", "de.s16e.streifen",
+           bin/"streifen"
   end
 
   service do
