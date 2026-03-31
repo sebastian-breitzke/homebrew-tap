@@ -1,10 +1,10 @@
 class Spuerhund < Formula
   desc "Local-first API workbench runtime for Spürhund"
   homepage "https://github.com/sebastian-breitzke/spuerhund"
-  version "0.1.0-runtime"
+  version "0.1.1-runtime"
   url "https://github.com/sebastian-breitzke/spuerhund.git",
       branch:   "main",
-      revision: "e3a0d45a4ced788632c6518f9ece89ce3b1ea578"
+      revision: "37d7dd1f3ad051d538d4400c49b98d694a3c2cd6"
   head "https://github.com/sebastian-breitzke/spuerhund.git", branch: "main"
 
   depends_on "oven-sh/bun/bun" => :build
@@ -36,8 +36,8 @@ class Spuerhund < Formula
 
   def caveats
     <<~EOS
-      Start the local runtime with:
-        spuerhund runtime start
+      Install and start the background service with:
+        spuerhund runtime install-service
 
       Generate a pairing code with:
         spuerhund runtime pair
