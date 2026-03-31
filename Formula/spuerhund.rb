@@ -1,10 +1,10 @@
 class Spuerhund < Formula
   desc "Local-first API workbench runtime for Spürhund"
   homepage "https://github.com/sebastian-breitzke/spuerhund"
-  version "0.1.1-runtime"
+  version "0.1.2-runtime"
   url "https://github.com/sebastian-breitzke/spuerhund.git",
       branch:   "main",
-      revision: "37d7dd1f3ad051d538d4400c49b98d694a3c2cd6"
+      revision: "1df82a3ca94c1d6d30507f84cd8a24338853ae13"
   head "https://github.com/sebastian-breitzke/spuerhund.git", branch: "main"
 
   depends_on "oven-sh/bun/bun" => :build
