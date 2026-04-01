@@ -5,20 +5,20 @@ class Spuerhund < Formula
 
   on_macos do
     on_intel do
-      url "https://github.com/sebastian-breitzke/spuerhund/releases/download/runtime-v0.1.2/spuerhund-runtime_0.1.2_darwin_x64.tar.gz"
-      sha256 "676331166fec1b8f6aed24505a8437ada0ef895c8bf72df117f2010542efe8f6"
+      url "https://github.com/sebastian-breitzke/homebrew-tap/releases/download/runtime-v0.1.2/spuerhund-runtime_0.1.2_darwin_x64.tar.gz"
+      sha256 "2b53136cd99630c1e78830bf2434f2cd7cbb2670cc4133a0053c36b17b0b9692"
     end
 
     on_arm do
-      url "https://github.com/sebastian-breitzke/spuerhund/releases/download/runtime-v0.1.2/spuerhund-runtime_0.1.2_darwin_arm64.tar.gz"
-      sha256 "7f8580bac710de7b368d549fca3311b2c1a1f3134f93917d8e4054183ce70a25"
+      url "https://github.com/sebastian-breitzke/homebrew-tap/releases/download/runtime-v0.1.2/spuerhund-runtime_0.1.2_darwin_arm64.tar.gz"
+      sha256 "af23cd53bb008d0371bf0c4f92412877ea349c484749aa25ee185478ac17b482"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/sebastian-breitzke/spuerhund/releases/download/runtime-v0.1.2/spuerhund-runtime_0.1.2_linux_x64.tar.gz"
-      sha256 "1d1e25d7aa132f37f51054cb743f284714e9ad406aaa4f00236db819ab381b24"
+      url "https://github.com/sebastian-breitzke/homebrew-tap/releases/download/runtime-v0.1.2/spuerhund-runtime_0.1.2_linux_x64.tar.gz"
+      sha256 "8454d7ec1514c0bdbdc4f90c895499b4128ac62a2232fa72dac8c8baa3787f2c"
     end
   end
 
