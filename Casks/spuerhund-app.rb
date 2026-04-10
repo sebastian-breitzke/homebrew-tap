@@ -1,8 +1,8 @@
 cask "spuerhund-app" do
   version "0.3.0"
-  sha256 "4fe403cc58df411ca1873fc9f24ea6bcd3367b596b7268367705cff5a1347a6f"
+  sha256 "a63b242ecd574917b6eac8e0f6c871b06134e4f4ec29752aeb6415c8bd85bb62"
 
-  url "https://github.com/sebastian-breitzke/spuerhund/releases/download/desktop-v0.3.0/Spurhund-0.3.0-arm64.dmg"
+  url "https://github.com/sebastian-breitzke/homebrew-tap/releases/download/desktop-v0.3.0/Spurhund-0.3.0-arm64.dmg"
   name "Spürhund"
   desc "GraphQL, MongoDB, SQL query workbench"
   homepage "https://spuerhund.dev"
