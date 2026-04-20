@@ -5,21 +5,21 @@
 class Hort < Formula
   desc "Local secret and config store for humans and AI agents"
   homepage "https://github.com/sebastian-breitzke/hort"
-  version "0.2.5"
+  version "0.2.6"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.5/hort_0.2.5_darwin_amd64.tar.gz"
-      sha256 "36cff71054521245f7024e004c4788f06487924c1d3a3c11ba8be2979e25fba5"
+      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.6/hort_0.2.6_darwin_amd64.tar.gz"
+      sha256 "6fe0b5ae4154a773942d812db48947a86fcd80d193dc341a0f83dc347fdd195c"
 
       define_method(:install) do
         bin.install "hort"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.5/hort_0.2.5_darwin_arm64.tar.gz"
-      sha256 "d2b9453e0925cb74508fa25acf41960d43d466a942c87a44359b6e7f07a3bc36"
+      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.6/hort_0.2.6_darwin_arm64.tar.gz"
+      sha256 "8e16ec447cb8a1c48f3748aabb31e3df6626c8f3085d229c1cd10f202a77e57b"
 
       define_method(:install) do
         bin.install "hort"
@@ -29,15 +29,15 @@ class Hort < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.5/hort_0.2.5_linux_amd64.tar.gz"
-      sha256 "9f63ad049155d1c6ad94ed00d2bcf7e2c9643567fbcad8aa48d9cf3c8cdb3ea0"
+      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.6/hort_0.2.6_linux_amd64.tar.gz"
+      sha256 "84bc591f71a2a8b6aae167d19c9365c33738288ea1b556f2b4fad712bbd05be9"
       define_method(:install) do
         bin.install "hort"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.5/hort_0.2.5_linux_arm64.tar.gz"
-      sha256 "edb5d99246f7603a3749b5fccdbe1058e806d93ffc917f3d0fbfca4b64ae56b3"
+      url "https://github.com/sebastian-breitzke/hort/releases/download/v0.2.6/hort_0.2.6_linux_arm64.tar.gz"
+      sha256 "92953e5d94af494c5c1a4017d2603ad27973a06ce9ee4ec355a90f98b601cb58"
       define_method(:install) do
         bin.install "hort"
       end
