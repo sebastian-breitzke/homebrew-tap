@@ -12,6 +12,9 @@ cask "streifen" do
 
   app "Streifen.app"
 
+  # Signed + notarized — skip Gatekeeper quarantine dialog
+  quarantine false
+
   zap trash: [
     "~/.config/streifen",
     "~/Library/Application Support/Streifen",
