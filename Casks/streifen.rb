@@ -12,8 +12,9 @@ cask "streifen" do
 
   app "Streifen.app"
 
-  # Signed + notarized — skip Gatekeeper quarantine dialog
-  quarantine false
+  postflight do
+    system_command "xattr", args: ["-rd", "com.apple.quarantine", "#{appdir}/Streifen.app"]
+  end
 
   zap trash: [
     "~/.config/streifen",
