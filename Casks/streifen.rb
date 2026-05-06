@@ -1,6 +1,6 @@
 cask "streifen" do
-  version "0.3.10"
-  sha256 "cedb65fea4d34d8cd80b95da336f192f7871bd096d50920980b4cb1697e20ebc"
+  version "0.3.11"
+  sha256 "9fbe2fe046433f97d8d143267220b986a9560dec16b8aa2eb1e1e847269aeb6e"
 
   url "https://github.com/sebastian-breitzke/streifen/releases/download/v#{version}/Streifen-#{version}-arm64.dmg"
   name "Streifen"
