@@ -1,6 +1,6 @@
 cask "lesepult" do
-  version "0.6.0"
-  sha256 "4584e81aa6ab914fd9e15b749c06d677a92135cf333dea3073bf3ac5bb83ac23"
+  version "0.7.0"
+  sha256 "ea8898fa3249062db2630da09a79680e5e802d5d4895c556eb83fc2420e8e0d2"
 
   url "https://github.com/sebastian-breitzke/lesepult/releases/download/v#{version}/Lesepult-#{version}-arm64.dmg"
   name "Lesepult"
