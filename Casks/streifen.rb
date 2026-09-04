@@ -7,7 +7,7 @@ cask "streifen" do
   desc "Tiling strip window manager for macOS"
   homepage "https://github.com/sebastian-breitzke/streifen"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Streifen.app"

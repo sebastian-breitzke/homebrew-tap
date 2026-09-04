@@ -7,7 +7,7 @@ cask "spuerhund-app" do
   desc "GraphQL, MongoDB, SQL query workbench"
   homepage "https://spuerhund.dev"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
 
   app "Spürhund.app"

@@ -7,7 +7,7 @@ cask "hort" do
   desc "Local secret and config store for humans and AI agents"
   homepage "https://github.com/sebastian-breitzke/hort"
 
-  depends_on macos: ">= :catalina"
+  depends_on macos: :catalina
   depends_on formula: "sebastian-breitzke/tap/hort"
 
   app "hort.app"
