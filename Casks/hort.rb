@@ -1,6 +1,6 @@
 cask "hort" do
-  version "0.2.6"
-  sha256 "d792ce7fff9bf62a79312659b0faf1028fc91cee06b4c4c61e1f44e0a82962ab"
+  version "0.3.0"
+  sha256 "f75e7ba235164b27ed00ef0566dcb8ee945f2c7dff8a4b3512a98319af8cd69b"
 
   url "https://github.com/sebastian-breitzke/hort/releases/download/v#{version}/hort_#{version}_darwin_universal.dmg"
   name "hort"
