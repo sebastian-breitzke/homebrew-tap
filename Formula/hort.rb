@@ -5,21 +5,21 @@
 class Hort < Formula
   desc "Local, encrypted secret store with sync for humans and AI agents"
   homepage "https://github.com/gefuege/hort"
-  version "1.4.0"
+  version "1.5.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/gefuege/hort/releases/download/v1.4.0/hort_1.4.0_darwin_amd64.tar.gz"
-      sha256 "33d78620ec21a28b95375d7a9cd7e95a0c1b9bbb2230839c470c45fdce01d9aa"
+      url "https://github.com/gefuege/hort/releases/download/v1.5.0/hort_1.5.0_darwin_amd64.tar.gz"
+      sha256 "e535087269351a44ed9d2562ad0c706bbff79efff1d64756e938f8ecdccbbd19"
 
       define_method(:install) do
         bin.install "hort"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/gefuege/hort/releases/download/v1.4.0/hort_1.4.0_darwin_arm64.tar.gz"
-      sha256 "acb6443e0bdece8a8cd8d1a87fb8816ee8f3df936a9cb47bac5a7d79b816a75c"
+      url "https://github.com/gefuege/hort/releases/download/v1.5.0/hort_1.5.0_darwin_arm64.tar.gz"
+      sha256 "abf23c93eaa1277971778dc3eabc2814843c3051ae0bb9731615ae96b96d743f"
 
       define_method(:install) do
         bin.install "hort"
@@ -29,15 +29,15 @@ class Hort < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/gefuege/hort/releases/download/v1.4.0/hort_1.4.0_linux_amd64.tar.gz"
-      sha256 "ffb70ef7dac8107ba9e12912374697422c8bf588411aa1c63716a2a2df27da1b"
+      url "https://github.com/gefuege/hort/releases/download/v1.5.0/hort_1.5.0_linux_amd64.tar.gz"
+      sha256 "d69c6426445e6ceb26e995c4f24161800fe029ff2959f1b6ff902e904a785bbc"
       define_method(:install) do
         bin.install "hort"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/gefuege/hort/releases/download/v1.4.0/hort_1.4.0_linux_arm64.tar.gz"
-      sha256 "87cab2cf2e76c6a5752a6fd4ca282fecf5095fe44b3ef9650d8dd1f51c910bf3"
+      url "https://github.com/gefuege/hort/releases/download/v1.5.0/hort_1.5.0_linux_arm64.tar.gz"
+      sha256 "5abcc54eb10136c492174664e2712ee3fa3dbe0463d7287bea78c8cf59810c88"
       define_method(:install) do
         bin.install "hort"
       end
